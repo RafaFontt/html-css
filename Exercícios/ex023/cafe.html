@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeterias</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 1000px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+            font-weight: bold;
+        }
+
+        td.num {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela das Cafeterias</h1>
+    <table>
+        <caption>Cafeterias de Porto Alegre</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 200px;">Nome</th>
+                <th scope="col">Observações</th>
+                <th scope="col">Expresso e Capputino</th>
+                <th scope="col" style="width: 50px;">Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bassani</td>
+                <td>Espaço pequeno, café bom e barato.</td>
+                <td>ex. suave / cp. cremoso c/ canela</td>
+                <td class="num">8.0</td>
+            </tr>
+            <tr>
+                <td>Pôr Café</td>
+                <td>Linda vista, café bom e preço médio.</td>
+                <td></td>
+                <td class="num">7.5</td>
+            </tr>
+            <tr>
+                <td>Gente Bonita</td>
+                <td></td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td>Leiteria 369</td>
+                <td></td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td>Kofre</td>
+                <td></td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td>Quiero Café</td>
+                <td></td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td>Fermata 29</td>
+                <td></td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td>Williams & Sons Coffee</td>
+                <td></td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td>República Café</td>
+                <td>Espaço show porém muito caro.</td>
+                <td>ex. forte demais / cp.</td>
+                <td class="num"></td>
+            </tr>
+            <tr>
+                <td>Mr. White</td>
+                <td></td>
+                <td></td>
+                <td class="num"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+</body>
+</html>
