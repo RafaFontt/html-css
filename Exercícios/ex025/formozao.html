@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="heart icon.ico" type="image/x-icon">
+    <title>Mozãooo</title>
+</head>
+<body>
+    <h1>Formulário de Amor da Minha Vida:</h1>
+    <form action="cadastrom.php" method="get" autocomplete="off">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome*:</label>
+                <input type="text" name="nome" id="inome" required>
+            </p>
+            <p>
+                <label for="isob">Sobrenome*:</label>
+                <input type="text" name="sob" id="isob" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" placeholder="nome@email">
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" pattern="^\d{5}-\d{4}$" placeholder="xxxxx-xxxx">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Atributos</legend>
+            <p>
+                <input type="checkbox" name="lin" id="ilin"> <label for="ilin">Linda</label>
+            </p>
+            <p>
+                <input type="checkbox" name="che" id="iche"> <label for="iche">Cheirosa</label>
+            </p>
+            <p>
+                <input type="checkbox" name="gos" id="igos"> <label for="igos">Gostosa</label>
+            </p>
+            <p>
+                <input type="checkbox" name="mar" id="imar"> <label for="imar">Maravilhosa</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label>
+            </p>
+            <p>
+                <input type="radio" name="sexo" id="isxfem" value="F"> <label for="isxfem">Feminino</label>
+            </p>
+            <p>
+                <input type="radio" name="sexo" id="isxque" value="Q"> <label for="isxque">Quero!</label>
+            </p>
+        </fieldset>
+        <p class="send">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
